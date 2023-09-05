@@ -2,6 +2,7 @@
 license: cc0-1.0
 tags:
 - ChatGPT
+- ChatGPT1
 ---
 <p align="center"><h1>🧠 Awesome ChatGPT Prompts [CSV dataset]</h1></p>
 
