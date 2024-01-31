@@ -2,6 +2,9 @@
 license: cc0-1.0
 tags:
 - ChatGPT
+pretty_name: Eurusd
+size_categories:
+- 100K<n<1M
 ---
 <p align="center"><h1>🧠 Awesome ChatGPT Prompts [CSV dataset]</h1></p>
 
@@ -12,4 +15,3 @@ This is a Dataset Repository of **Awesome ChatGPT Prompts**
 # License
 
 CC-0
-
