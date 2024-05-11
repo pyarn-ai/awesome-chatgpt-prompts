@@ -1,15 +1,24 @@
----
-license: cc0-1.0
-tags:
-- ChatGPT
----
-<p align="center"><h1>🧠 Awesome ChatGPT Prompts [CSV dataset]</h1></p>
+import pyttsx3
 
-This is a Dataset Repository of **Awesome ChatGPT Prompts**
+# Создаем объект для синтеза речи
+engine = pyttsx3.init()
 
-**[View All Prompts on GitHub](https://github.com/f/awesome-chatgpt-prompts)**
+# Устанавливаем свойства голоса
+engine.setProperty('rate', 150)  # Скорость речи
+engine.setProperty('volume', 0.9)  # Громкость речи
 
-# License
+# Устанавливаем желаемый голос (если доступны)
+voices = engine.getProperty('voices')
+for voice in voices:
+    if "anime" in voice.name.lower():  # Проверка наличия голоса по ключевому слову
+        engine.setProperty('voice', voice.id)
+        break
 
-CC-0
+# Текст, который нужно проговорить
+text = "Привет, я милый аниме-тян!"
 
+# Произносим текст
+engine.say(text)
+
+# Дожидаемся завершения произношения
+engine.runAndWait()
