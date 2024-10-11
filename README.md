@@ -2,6 +2,9 @@
 license: cc0-1.0
 tags:
 - ChatGPT
+- AI
+- Prompots
+- AiPrompts
 task_categories:
 - question-answering
 size_categories:
