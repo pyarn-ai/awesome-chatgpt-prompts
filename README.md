@@ -1,5 +1,5 @@
 ---
-license: cc0-1.0
+license: cc0-1.0 
 tags:
 - ChatGPT
 task_categories:
