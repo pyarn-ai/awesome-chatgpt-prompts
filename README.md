@@ -1,11 +1,18 @@
 ---
-license: cc0-1.0
 tags:
 - ChatGPT
+- code
+- chemistry
+- biology
 task_categories:
 - question-answering
+- text2text-generation
+- table-question-answering
 size_categories:
-- 100K<n<1M
+- 10M<n<100M
+language:
+- en
+pretty_name: perpetual
 ---
 <p align="center"><h1>🧠 Awesome ChatGPT Prompts [CSV dataset]</h1></p>
 
