@@ -9,7 +9,7 @@ size_categories:
 ---
 <p align="center"><h1>🧠 Awesome ChatGPT Prompts [CSV dataset]</h1></p>
 
-This is a Dataset Repository of **Awesome ChatGPT Prompts**
+This is a Dataset Repository of **AGI:BASED—PROMPT;MAX-TOKENS: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**
 
 **[View All Prompts on GitHub](https://github.com/f/awesome-chatgpt-prompts)**
 
